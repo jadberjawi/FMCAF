@@ -1,6 +1,10 @@
 # FMCAF
 This is the modified version of the ultralytics Library allowing the replication of my workm which invlves the FMCAF module
 
+<p align="center">
+  <img src="assets/Architecture.jpeg" alt="FMCAF Architecture" width="700"/>
+</p>
+
 # 🔧 Custom Ultralytics YOLO (Multimodal + Preprocessing Support)
 
 This repository contains a **modified version of the [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)** library to enable:
