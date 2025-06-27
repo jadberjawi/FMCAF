@@ -33,3 +33,36 @@ This repository contains a **modified version of the [Ultralytics YOLO](https://
 | `mefa`        | `MCAF`            | Multimodal Cross Attention Fusion for enhanced early fusion  |
 | `rsr`         | `Freq-Filter`     | Redundant Spectrum Removal via frequency-based filtering     |
 
+
+
+##  Integration Summary
+
+To integrate our preprocessing modules into Ultralytics explained in section 2 Above:
+
+1. **Initialize in `__init__()` of DetectionModel**
+
+```python
+self.FreqFilter = FreqFilter()
+self.MCAF = MCAF()
+self.alpha = torch.nn.Parameter(torch.tensor(0.2))
+```
+2. **Inject in `DetectionModel.forward()` (`ultralytics/nn/tasks.py`)**
+
+```python
+def forward(self, x, *args, **kwargs):
+    batch = x  # Preserve batch dict
+    if isinstance(x, dict):  # Training input format
+        x = x["img"]
+
+    filtered_x = self.FreqFilter(x)
+    alpha = torch.clamp(self.alpha, 0, 1)
+    mixed_input = alpha * filtered_x + (1 - alpha) * x
+
+    x = self.MCAF(mixed_input)
+
+    if self.training:
+        out = self._predict_once(x)
+        return self.loss(batch, out)
+    return self.predict(x, *args, **kwargs)
+```
+
