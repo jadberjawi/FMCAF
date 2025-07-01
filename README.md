@@ -30,14 +30,6 @@ This repository contains a **modified version of the [Ultralytics YOLO](https://
   - Modality-specific enhancement
   - Cross-attention fusion, etc.
 
-### 📦 3.  Module Mapping
-
-| Original Name | Module Name in the paper     | Purpose / Functionality                                      |
-|---------------|-------------------|---------------------------------------------------------------|
-| `mefa`        | `MCAF`            | Multimodal Cross Attention Fusion for enhanced early fusion  |
-| `rsr`         | `Freq-Filter`     | Redundant Spectrum Removal via frequency-based filtering     |
-
-
 
 ##  Integration Summary
 
