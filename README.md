@@ -63,4 +63,4 @@ def forward(self, x, *args, **kwargs):
 ```
 
 ##  References 
-[1] Yoann Dupas, Olivier Hotel, Gre ́goire Lefebvre, and Christophe Ce ́rin. Mefa: Multimodal image early fusion with attention module for pedestrian and vehicle detection. In Proceedings of the 20th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 3: VISAPP, pages 610–617. INSTICC, SciTePress, 2025.[Paper Link](https://www.scitepress.org/Papers/2025/132360/132360.pdf)
+[1] Yoann Dupas, Olivier Hotel, Gre ́goire Lefebvre, and Christophe Ce ́rin. Mefa: Multimodal image early fusion with attention module for pedestrian and vehicle detection. In Proceedings of the 20th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 3: VISAPP, pages 610–617. INSTICC, SciTePress, 2025. [Paper](https://www.scitepress.org/Papers/2025/132360/132360.pdf)
