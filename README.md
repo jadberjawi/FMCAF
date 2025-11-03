@@ -64,6 +64,19 @@ def forward(self, x, *args, **kwargs):
     return self.predict(x, *args, **kwargs)
 ```
 
+## Cite Us
+
+If you use this work, please cite our paper:
+
+```bibtex
+@InProceedings{Berjawi_2025_ICCV,
+    author    = {Berjawi, Jad and Dupas, Yoann and C\'erin, Christophe},
+    title     = {Towards a Generalizable Fusion Architecture for Multimodal Object Detection},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2025},
+    pages     = {2192-2200}
+}
 
 ##  References 
 [1] Yoann Dupas, Olivier Hotel, Gregoire Lefebvre, and Christophe Cerin. *Mefa: Multimodal image early fusion with attention module for pedestrian and vehicle detection* - Volume 3: VISAPP, pages 610–617. INSTICC, SciTePress, 2025. [Paper](https://www.scitepress.org/Papers/2025/132360/132360.pdf)
