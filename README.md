@@ -1,3 +1,5 @@
+# Towards a Generalizable Fusion Architecture for Multimodal Object Detection
+This archetecture is explained in our [Paper(https://openaccess.thecvf.com/content/ICCV2025W/MIRA/papers/Berjawi_Towards_a_Generalizable_Fusion_Architecture_for_Multimodal_Object_Detection_ICCVW_2025_paper.pdf)
 # FMCAF
 This is the modified version of the ultralytics Library allowing the replication of my workm which invlves the FMCAF module
 
@@ -61,6 +63,7 @@ def forward(self, x, *args, **kwargs):
         return self.loss(batch, out)
     return self.predict(x, *args, **kwargs)
 ```
+
 
 ##  References 
 [1] Yoann Dupas, Olivier Hotel, Gregoire Lefebvre, and Christophe Cerin. *Mefa: Multimodal image early fusion with attention module for pedestrian and vehicle detection* - Volume 3: VISAPP, pages 610–617. INSTICC, SciTePress, 2025. [Paper](https://www.scitepress.org/Papers/2025/132360/132360.pdf)
