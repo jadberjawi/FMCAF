@@ -1,5 +1,5 @@
 # Towards a Generalizable Fusion Architecture for Multimodal Object Detection
-This archetecture is explained in our [Paper(https://openaccess.thecvf.com/content/ICCV2025W/MIRA/papers/Berjawi_Towards_a_Generalizable_Fusion_Architecture_for_Multimodal_Object_Detection_ICCVW_2025_paper.pdf)
+This archetecture is explained in our [Paper](https://openaccess.thecvf.com/content/ICCV2025W/MIRA/papers/Berjawi_Towards_a_Generalizable_Fusion_Architecture_for_Multimodal_Object_Detection_ICCVW_2025_paper.pdf)
 # FMCAF
 This is the modified version of the ultralytics Library allowing the replication of my workm which invlves the FMCAF module
 
