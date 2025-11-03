@@ -72,7 +72,7 @@ If you use this work, please cite our paper:
 
 ```bibtex
 @InProceedings{Berjawi_2025_ICCV,
-    author    = {Berjawi, Jad and Dupas, Yoann and C\'erin, Christophe},
+    author    = {Berjawi, Jad and Dupas, Yoann and C'erin, Christophe},
     title     = {Towards a Generalizable Fusion Architecture for Multimodal Object Detection},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
     month     = {October},
